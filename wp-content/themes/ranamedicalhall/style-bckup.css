@@ -1,0 +1,456 @@
+/*
+Theme Name: Rana Medicalhall
+Author: Developers
+Description: Theme developed for Rana Medicalhall 
+Version: 0.0.1
+*/
+
+
+/* hiding sidebar  */
+#sidebar {
+    display: none;
+}
+
+/* blog list page  */
+.blogs-page {
+    background-color: #f2f5f7;
+}
+
+.blogs-wrapper .navigation {
+    display: flex;
+}
+
+.blogs-wrapper span.next {
+    margin-left: auto;
+}
+
+.blogs-wrapper span.next a,
+span.prev a {
+    color: #222d34;
+}
+
+.blogs-wrapper .date {
+    font-weight: 100;
+}
+
+.blogs-wrapper p {
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blogs-wrapper .post {
+    background: #fff;
+    padding: 30px;
+    height: 100%;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs-wrapper .post:hover {
+    box-shadow: 0 0 12px rgba(197, 197, 197, 0.671);
+}
+
+.blogs-wrapper .post-title {
+    margin-top: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blogs-wrapper .post-title h2 {
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+
+.blogs-wrapper a.more {
+    background: #222d34;
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: .3s;
+    font-size: 12px;
+    max-width: 89px;
+}
+
+.blogs-wrapper a.more:hover {
+    color: #fff;
+    background: #222d34;
+    box-shadow: 0 0 5px grey;
+    border: none;
+}
+
+/* blog detail page  */
+.customSidebar .wpforms-container {
+    padding: 0 15px;
+}
+
+.customSidebar .wpforms-container form,
+.customSidebar .recent-wrap,
+.customSidebar .monthly-archieve {
+    padding: 50px 20px;
+    background: #fbfbfb;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.322);
+}
+
+.customSidebar .recent-wrap .date {
+    font-size: 10px;
+    display: inline-block;
+    background: #d6d6d6;
+    padding: 0px 12px;
+    border-radius: 15px;
+}
+
+.customSidebar .recent-wrap .post-wrap {
+    padding-top: 15px;
+    border-top: 1px solid rgba(141, 144, 144, 0.369);
+}
+
+.customSidebar .monthly-archieve .month-wrapper .month-link:first-child {
+    border-top: 1px solid rgba(141, 144, 144, 0.369);
+}
+
+.customSidebar .monthly-archieve .month-link {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(141, 144, 144, 0.369);
+}
+
+.customSidebar .wpforms-head-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customSidebar .wpforms-title,
+.customSidebar h2 {
+    margin-bottom: 10px;
+    font-size: 22px !important;
+    font-weight: 500;
+    text-align: center;
+    color: #5e6271;
+}
+
+.customSidebar h3 {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5e6271;
+    padding: 0 0 5px;
+    transition: .3s;
+}
+
+.customSidebar .wpforms-description {
+    font-weight: 400;
+}
+
+.customSidebar .wpforms-field-container label {
+    display: block;
+    margin: 0;
+    padding: 2px 5px;
+    font-weight: 500 !important;
+}
+
+.customSidebar .wpforms-field-container input,
+.customSidebar .wpforms-field-container select,
+.customSidebar .wpforms-field-container textarea {
+    width: 100% !important;
+    color: #666 !important;
+    padding: .75em !important;
+    height: auto !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #eaeaea !important;
+    border-radius: 2px !important;
+    background: #fff !important;
+    resize: none !important;
+    box-shadow: none !important;
+    max-width: initial !important;
+}
+
+.customSidebar .wpforms-field {
+    margin-bottom: 10px;
+}
+
+#widget-sidebar {
+    width: 100%;
+}
+
+#widget-sidebar > ul{
+    margin: 0;
+}
+
+.customSidebar .wpforms-field-hp {
+    display: none;
+}
+
+.customSidebar .wpforms-submit {
+    color: #ffffff !important;
+    border: 1px solid #ea3a1c !important;
+    background: #ea3a1c !important;
+    border-radius: 5px !important;
+    padding: 10px 40px !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.main-blog-wrapper .customSidebar a {
+    color: #5e6271;
+    transition: .3s;
+}
+
+.main-blog-wrapper .customSidebar .date b {
+    font-weight: 400;
+}
+
+.main-blog-wrapper .customSidebar a.item {
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(141, 144, 144, 0.369);
+}
+
+.customSidebar h3:hover,
+.main-blog-wrapper .customSidebar a.item:hover a,
+.main-blog-wrapper .customSidebar a.item:hover h3,
+.main-blog-wrapper .customSidebar a:hover {
+    color: #21a3a3;
+}
+
+.main-blog-wrapper .blog-main-title {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.main-blog-wrapper+.main-blog-wrapper .customSidebar {
+    display: none;
+}
+
+.main-blog-wrapper+.main-blog-wrapper .blog-main-title {
+    margin-top: 50px;
+}
+
+/* header style fixes  */
+a:hover {
+    border: none;
+}
+
+.main-menu ul li a {
+    padding: 0;
+    border: 1px dotted transparent;
+}
+
+.main-menu ul li a:hover {
+    border-bottom: 1px dashed #FFF;
+}
+
+.main-menu li.c-dropdowns li {
+    padding: 10px 20px;
+}
+
+.main-menu li.c-dropdowns li a {
+    padding: 0;
+}
+
+.main-menu ul li ul.cr-dropdown-menu li a:hover {
+    padding-left: 5px;
+}
+
+/* home page style fixes  */
+
+.header-single-slider figure,
+.header-single-slider img {
+    width: 100%;
+    display: block;
+}
+
+#home-form input,
+#home-form select,
+#home-form textarea {
+    width: 100%;
+    resize: none;
+    margin: 0;
+    border: none;
+}
+
+
+#home-form textarea {
+    height: 96px;
+}
+
+#home-form .submitbanner {
+    margin-right: 0px;
+}
+
+
+#home-form label.error {
+    padding: 5px 0 0 5px;
+    color: #ff5959;
+}
+
+.home-page .section-title {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.home-page #beauticians .info-box {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.home-page .cards-wrapper .row>div {
+    margin-bottom: 30px;
+}
+
+@media(min-width: 992px) {
+
+    #home-form select {
+        background-color: rgba(238, 238, 238, 0.15);
+        color: #495057;
+        border: none;
+        padding-left: 5px;
+    }
+
+}
+
+footer .contact-wrapper .single-contact a {
+    display: flex;
+    align-items: center;
+}
+
+footer .contact-wrapper .single-contact h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 992px) {
+
+    footer .contact-wrapper i,
+    footer .contact-wrapper img {
+        margin-right: 12px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #home-form input,
+    #home-form select,
+    #home-form textarea {
+        background: #fff;
+    }
+
+}
+
+@media(max-width: 575px) {
+
+    footer .contact-wrapper .single-contact h4 {
+        font-size: 15px;
+    }
+
+    footer .contact-wrapper i,
+    footer .contact-wrapper img {
+        max-height: 33px;
+        margin-right: 5px;
+    }
+
+}
+
+@media (max-width: 409px) {
+    footer .single-contact {
+        margin: auto;
+        padding-top: 12px;
+    }
+}
+
+.contact-wrapper .single-contact:hover h4 {
+    margin-bottom: 0;
+}
+
+footer .contact-wrapper {
+    background: #1e1e1e;
+}
+
+#menu-social-media {
+    padding-top: 15px;
+}
+
+#footer-copyright {
+    padding: 40px 0 0;
+}
+
+ul#menu-social-media a {
+    margin-right: 9px;
+    border: none;
+}
+
+#footer-copyright .copyright-bottom-panel {
+    padding: 15px 0;
+    margin-top: 15px;
+    border-top: 1px solid #ffffff1f;
+}
+
+.wrap-404 h1 {
+    font-size: 15rem;
+}
+
+.wrap-404 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.wrap-404 {
+    min-height: calc(100vh - 450px);
+}
+
+
+@media (max-width: 767px) {
+    .wrap-404 h1 {
+        font-size: 8rem;
+    }
+}
+
+.footer_menu h2 {
+    color: rgb(255 255 255);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.footer_menu a {
+    color: rgb(204 204 204);
+    transition: .3s;
+}
+
+.footer_menu a:hover {
+    color: #fff;
+}
+
+.footer_menu {
+    padding-bottom: 50px;
+}
+
+.featured-image {
+    display: block;
+    padding: 0 0 20px;
+}
+
+.featured-image img {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+
+
+.thankyou-title {
+    font-size: 2rem;
+}
+
+#wpforms-submit-135 {
+    margin-top: 15px;
+}
